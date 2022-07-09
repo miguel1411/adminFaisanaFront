@@ -1,0 +1,26 @@
+{
+  "name": "faisanalogin",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050"
+  },
+  "dependencies": {
+    "element-plus": "^2.1.11",
+    "pinia": "^2.0.14",
+    "vue": "^3.2.33",
+    "vue-axios": "^3.4.1",
+    "vue-router": "^4.0.14",
+    "vue3-simple-file-input": "^1.0.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.4",
+    "unplugin-auto-import": "^0.7.1",
+    "unplugin-vue-components": "^0.19.3",
+    "vite": "^2.9.5"
+  }
+}
