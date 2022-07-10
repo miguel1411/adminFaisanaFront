@@ -15,8 +15,8 @@ import 'element-plus/dist/index.css'
 // import { split } from 'lodash'
 
 export const httpAxios = axios.create({
-  // baseURL: location.protocol + '//' + location.host + '/admin/api',
-  baseURL: 'http://localhost:5001/admin/api',
+  baseURL: location.protocol + '//' + location.host + '/admin/api',
+  // baseURL: 'http://localhost:5001/admin/api',
   headers: {
     'X-Custom-Header': 'foobar',
     'Authorization': `Bearer ${localStorage.getItem("faisanaInfo")}`,

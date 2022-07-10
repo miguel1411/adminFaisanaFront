@@ -1,6 +1,7 @@
 <template>
   <div class="container-category">
     <navigatorVue />
+    <h1 class="text-center text-2xl">Categoría</h1>
     <categorie />
   </div>
 </template>

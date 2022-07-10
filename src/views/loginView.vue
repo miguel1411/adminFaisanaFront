@@ -51,7 +51,10 @@ const login = async () => {
         />
       </el-form-item>
       <el-form-item>
-        <el-button type="warning" @click="login()">Iniciar sessión</el-button>
+        <el-button
+          type="warning"
+          @click="login()"
+        >Iniciar sessión</el-button>
     </el-form-item>
     </el-form>
   </div>
